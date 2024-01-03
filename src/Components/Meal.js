@@ -34,24 +34,24 @@ const Meal = () => {
             onChange={(e) => setSearch(e.target.value)}
             value={search}
             onKeyPress={searchMeal}
-            placeholder="eg: pizza,cake, etc.."
+            placeholder="eg: pizza,cake,steak etc.."
           />
         </div>
-          <div>
-            {loading && (
-              <div className="text-center">
-                <Oval
-                  visible={true}
-                  height="80"
-                  width="80"
-                  color="#4fa94d"
-                  ariaLabel="oval-loading"
-                  wrapperStyle={{ display: "inline-block" }}
-                  wrapperClass="mx-auto"
-                />
-              </div>
-            )}
-          </div>
+        <div>
+          {loading && (
+            <div className="text-center">
+              <Oval
+                visible={true}
+                height="80"
+                width="80"
+                color="#4fa94d"
+                ariaLabel="oval-loading"
+                wrapperStyle={{ display: "inline-block" }}
+                wrapperClass="mx-auto"
+              />
+            </div>
+          )}
+        </div>
         <div className="container">
           {Mymeal == null ? (
             <p className="notSearch">No item found</p>
