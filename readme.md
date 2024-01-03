@@ -26,7 +26,7 @@ Live Link🔗: [Your Live Link]
 ![Screenshot 1](/public/images/Food-Recipes-App-1.png)
 *Food search form*
 
-![Screenshot 2](/public/image/buzztalk-chat-2.png)
+![Screenshot 2](/public/images/Food-Recipes-App-2.png)
 *Result*
 
 
