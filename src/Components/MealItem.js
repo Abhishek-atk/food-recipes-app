@@ -1,7 +1,6 @@
 import React from "react";
 import './style.css';
 const Mealitem = (getMeal) => {
-    console.log(getMeal.data)
     return (
         <>
             <div className="card">
