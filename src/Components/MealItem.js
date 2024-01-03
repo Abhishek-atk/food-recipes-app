@@ -13,7 +13,7 @@ const Mealitem = (getMeal) => {
                 <div className="recipe">
                     <h2>Recipe</h2>
                     <p>{getMeal.data.strInstructions}</p>
-                    <img src={getMeal.data.strMealThumb} />
+                    <img src={getMeal.data.strMealThumb} alt="food"/>
                     <strong style={{margin:"35%"}}>Ingredients</strong>
                     <table className="Ingredients_table">
                         <tr>
